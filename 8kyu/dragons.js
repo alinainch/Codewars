@@ -5,3 +5,4 @@ function hero(bullets, dragons){
     return false 
   }
 }
+
