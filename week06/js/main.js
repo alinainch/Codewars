@@ -53,3 +53,8 @@ function basicOp(operation, value1, value2)
 function minMax(arr){
   return [Math.min(...arr) , Math.max(...arr)]; // fix me!
 }
+
+//#5 Third Angle of a Triangle
+function otherAngle(a, b) {
+  return 180 - a - b;
+}
