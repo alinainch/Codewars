@@ -49,6 +49,7 @@ function basicOp(operation, value1, value2)
 }
 }
 
-//hi michael 
-//the goat
-//round 2 the goats tackle emojis 
+//#4 The highest profit wins!
+function minMax(arr){
+  return [Math.min(...arr) , Math.max(...arr)]; // fix me!
+}
