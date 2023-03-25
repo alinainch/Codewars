@@ -82,3 +82,13 @@ function greet(language) {
   }
   return langObj[language] || langObj.english 
 }
+
+
+//#7 Determine offspring sex based on genes XX and XY chromosomes 
+function chromosomeCheck(sperm) {
+  if(sperm === "XX"){
+    return "Congratulations! You're going to have a daughter."
+  }  else {
+    return "Congratulations! You're going to have a son."
+  }
+ }
