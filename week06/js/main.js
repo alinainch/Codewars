@@ -92,3 +92,8 @@ function chromosomeCheck(sperm) {
     return "Congratulations! You're going to have a son."
   }
  }
+
+ //#8 Chuck Norris VII - True or False? (Beginner)
+ function ifChuckSaysSo(){
+  return !true 
+ } //note to self: first I tried return != true but that didn't work. 
