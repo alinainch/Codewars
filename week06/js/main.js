@@ -97,3 +97,10 @@ function chromosomeCheck(sperm) {
  function ifChuckSaysSo(){
   return !true 
  } //note to self: first I tried return != true but that didn't work. 
+
+ //#9 Volume of a Cuboid (8kyu)
+ class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+    return length * width * height 
+  }
+}
