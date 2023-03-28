@@ -109,3 +109,12 @@ function chromosomeCheck(sperm) {
 function strCount(str, letter){  
   return str.split(letter).length-1
 }
+
+//#11 Add Length (8kyu)
+function addLength(str) {
+  let array = str.split(' ')
+  for (let i = 0; i < array.length; i++) {
+    array[i] = `${array[i]} ${array[i].length}`
+  }
+  return array
+  }
