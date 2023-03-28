@@ -120,6 +120,4 @@ function addLength(str) {
   }
 
 //easier solution with map vvv from solutions 
-function addLength(str){
-  return str.split(" ").map(s => `${s} ${s.length}`)
-}
+let addLength = str => str.split(' ').map(word => `${word} ${word.length}`)
