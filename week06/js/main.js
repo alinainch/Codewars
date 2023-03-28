@@ -118,3 +118,8 @@ function addLength(str) {
   }
   return array
   }
+
+//easier solution with map vvv from solutions 
+function addLength(str){
+  return str.split(" ").map(s => `${s} ${s.length}`)
+}
