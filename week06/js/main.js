@@ -121,3 +121,17 @@ function addLength(str) {
 
 //easier solution with map vvv from solutions 
 let addLength = str => str.split(' ').map(word => `${word} ${word.length}`)
+
+//#12 Sum Mixed Array
+function sumMix(x){
+  return x.reduce((a, n) => Number(n) + a, 0)
+} //a is the accumulator aka the initial value. n is each othe values/indexes in the array 
+//a = 0 was set to 0
+
+//a doesnt need to be converted into a number, only n needs to be converted because it can be either 
+//a string or a number 
+
+//cleaner solution vvvvvv
+function sumMix(x){
+  return x.reduce((a, n) => +n + a, 0)
+ }
