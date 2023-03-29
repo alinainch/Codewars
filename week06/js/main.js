@@ -153,3 +153,9 @@ function sumMix(x){
     }
   }
 }
+
+//better way 
+// isWorthIt(){
+//   return this.draft - 1.5 * this.crew > 20;
+// }
+//? true:false
