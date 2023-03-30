@@ -178,3 +178,16 @@ function countSheeps(arrayOfSheep) {
   })
   return sheep 
 } //true is Boolean not string 
+
+function countSheeps(arrayOfSheep) {
+  return arrayOfSheep.reduce((a, n) => {
+    if(n === true){
+      return a + 1 
+      } else {
+        return a 
+      }
+      } , 0)
+ } 
+ //first argument is a function which is everything before 0 
+ //first function takes two arguments (a,n)
+ //second argument is 0 (starting place)
