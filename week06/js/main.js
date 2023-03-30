@@ -191,3 +191,7 @@ function countSheeps(arrayOfSheep) {
  //first argument is a function which is everything before 0 
  //first function takes two arguments (a,n)
  //second argument is 0 (starting place)
+
+ function countSheeps(arrayOfSheeps) {
+  return arrayOfSheeps.filter(element => element === true).length;
+}
