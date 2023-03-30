@@ -160,9 +160,21 @@ function sumMix(x){
 // }
 //? true:false
 
-//"this" is a problem 
+//#"this" is a problem 
 function NameMe(first, last) {
   this.firstName = first;
   this.lastName = last;
   this.name = first + ' ' + last 
 }
+
+//#14 Counting sheep...
+function countSheeps(arrayOfSheep) {
+  let sheep = 0
+  arrayOfSheep.forEach(element => { 
+    console.log(element)
+    if(element === true){
+    sheep++
+  }
+  })
+  return sheep 
+} //true is Boolean not string 
