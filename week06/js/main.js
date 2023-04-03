@@ -214,3 +214,12 @@ String.prototype.toAlternatingCase = function () {
       return x
     }
   }
+
+  //#16 Even of Odd 
+  const evenOrOdd = (num) => {
+    if(num % 2 === 0){
+      return 'Even'
+    } else {
+      return 'Odd'
+    }
+  }
