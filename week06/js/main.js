@@ -215,11 +215,14 @@ String.prototype.toAlternatingCase = function () {
     }
   }
 
-  //#16 Even of Odd 
-  const evenOrOdd = (num) => {
-    if(num % 2 === 0){
-      return 'Even'
-    } else {
-      return 'Odd'
-    }
+//#16 Even of Odd 
+const evenOrOdd = (num) => {
+  if(num % 2 === 0){
+    return 'Even'
+  } else {
+    return 'Odd'
   }
+}
+
+//#17 Convert a Boolean to a String
+let booleanToString = b => b.toString()
