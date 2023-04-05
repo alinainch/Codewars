@@ -251,3 +251,6 @@ function bmi(weight, height) {
  function fixTheMeerkat(arr) {
   return arr.reverse()
  }
+
+ //better arrow function
+ let fixTheMeerkat = x => x.reverse()
