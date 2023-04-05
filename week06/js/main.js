@@ -246,3 +246,8 @@ function bmi(weight, height) {
   let b = w / (h*h)
   return b <= 18.5 ? 'Underweight' : b <= 25.0 ? 'Normal' : b <= 30.0 ? 'Overweight' : 'Obese'
  }
+
+ //#19 My head is at the wrong end!
+ function fixTheMeerkat(arr) {
+  return arr.reverse()
+ }
