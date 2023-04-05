@@ -240,3 +240,9 @@ function bmi(weight, height) {
      return 'Obese'
    }
  }
+
+ // other way to code it cleaner
+ function bmi(w, h){
+  let b = w / (h*h)
+  return b <= 18.5 ? 'Underweight' : b <= 25.0 ? 'Normal' : b <= 30.0 ? 'Overweight' : 'Obese'
+ }
