@@ -254,3 +254,8 @@ function bmi(weight, height) {
 
  //better arrow function
  let fixTheMeerkat = x => x.reverse()
+
+ //#20 Friend of Foe? 7kyu
+ function friend(friends){
+  return friends.filter(x => x.length === 4)
+}
