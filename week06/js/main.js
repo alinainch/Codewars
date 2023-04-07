@@ -259,3 +259,6 @@ function bmi(weight, height) {
  function friend(friends){
   return friends.filter(x => x.length === 4)
 }
+
+//easier solution
+ const friend = friendsArr => friendsArr.filter(friend => friend.length === 4)
