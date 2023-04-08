@@ -262,3 +262,13 @@ function bmi(weight, height) {
 
 //easier solution
  const friend = friendsArr => friendsArr.filter(friend => friend.length === 4)
+
+//#21 Contamination #1-String-
+function contamination(text, char){
+  let emptyStr = ''
+  for(let i = 0; i < text.length; i++){
+    emptyStr += char 
+ } 
+  return emptyStr
+}
+
