@@ -272,3 +272,7 @@ function contamination(text, char){
   return emptyStr
 }
 
+//#22 Convert a string to a new array
+function stringToArray(string){
+  return string.split(' ')
+}
