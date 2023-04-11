@@ -289,3 +289,8 @@ function numberToString(num) {
 
 //better solution
 let numberToString = num => num.toString()
+
+//#25 Removing elements 8kyu
+function removeEveryOther(arr){
+  return arr.filter((e,i) => i % 2 === 0)
+ }
