@@ -276,3 +276,8 @@ function contamination(text, char){
 function stringToArray(string){
   return string.split(' ')
 }
+
+//#23 Sort array by string length 
+function sortByLength (array) {
+  return array.sort((x,y) => x.length - y.length)
+};
