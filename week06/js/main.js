@@ -298,4 +298,7 @@ function removeEveryOther(arr){
 //#26 You only need one - Beginner 
 function check(a, x) {
   return a.includes(x)
-  }
+}
+
+//better solution
+const check = (a,x) => a.includes(x)
