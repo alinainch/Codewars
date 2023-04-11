@@ -324,3 +324,6 @@ function filter_list(l) {
 function sum (numbers) {
   return numbers.reduce((a,n) => a + n, 0)
 };
+
+//with arrow function
+const sum = numbers => numbers.reduce((a,n) => a + n, 0)
