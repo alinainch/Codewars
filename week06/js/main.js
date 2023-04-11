@@ -313,3 +313,8 @@ function areYouPlayingBanjo(name) {
 }
 
 //could also use name[0] instead of the charAt 
+
+//#28 List filtering 7kyu 
+function filter_list(l) {
+  return l.filter(e => typeof e === 'number')
+}
