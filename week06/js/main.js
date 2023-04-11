@@ -286,3 +286,6 @@ function sortByLength (array) {
 function numberToString(num) {
   return num.toString()
 }
+
+//better solution
+let numberToString = num => num.toString()
