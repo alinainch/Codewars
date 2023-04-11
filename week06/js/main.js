@@ -294,3 +294,8 @@ let numberToString = num => num.toString()
 function removeEveryOther(arr){
   return arr.filter((e,i) => i % 2 === 0)
  }
+
+//#26 You only need one - Beginner 
+function check(a, x) {
+  return a.includes(x)
+  }
