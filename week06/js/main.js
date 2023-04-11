@@ -311,3 +311,5 @@ function areYouPlayingBanjo(name) {
     return name + ' does not play banjo'
   }
 }
+
+//could also use name[0] instead of the charAt 
