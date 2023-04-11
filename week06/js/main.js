@@ -318,3 +318,9 @@ function areYouPlayingBanjo(name) {
 function filter_list(l) {
   return l.filter(e => typeof e === 'number')
 }
+
+//#29 Sum Array 8kyu
+// Sum Numbers
+function sum (numbers) {
+  return numbers.reduce((a,n) => a + n, 0)
+};
