@@ -281,3 +281,8 @@ function stringToArray(string){
 function sortByLength (array) {
   return array.sort((x,y) => x.length - y.length)
 };
+
+//#24 Conver a numer to a string
+function numberToString(num) {
+  return num.toString()
+}
