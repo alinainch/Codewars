@@ -302,3 +302,12 @@ function check(a, x) {
 
 //better solution
 const check = (a,x) => a.includes(x)
+
+//#27 Are you playing banjo?
+function areYouPlayingBanjo(name) {
+  if(name.charAt(0) === 'R' || name.charAt(0) === 'r'){
+    return name + ' plays banjo'
+  } else {
+    return name + ' does not play banjo'
+  }
+}
