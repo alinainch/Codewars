@@ -10,3 +10,4 @@ function rentalCarCost(d) {
   return cost 
   }
 }
+//
