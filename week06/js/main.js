@@ -346,3 +346,6 @@ function findAverage(array) {
 function grow(x){
   return x.reduce((a,n) => a * n, 1)
 }
+
+// better
+const grow = x => x.reduce((a, n) => a * n, 1)
