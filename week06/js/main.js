@@ -341,3 +341,8 @@ function findAverage(array) {
 
 //add all with reduce method
 // divide by the total amount of numbers (.length)
+
+//#31 Reduce but Grow
+function grow(x){
+  return x.reduce((a,n) => a * n, 1)
+}
