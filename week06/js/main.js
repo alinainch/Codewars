@@ -349,3 +349,7 @@ function grow(x){
 
 // better
 const grow = x => x.reduce((a, n) => a * n, 1)
+
+//#32 Function 2 - squaring an argument
+const square = n1 => n1 * n1
+//could also do const square = n => n ** 2
