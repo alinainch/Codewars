@@ -357,3 +357,12 @@ const square = n1 => n1 * n1
 //#33 Find Maximum and Minimum Values of a List
 const min = list => Math.min(...list)
 const max = list => Math.max(...list)
+
+// before the arrow
+// const min = function(list){
+//   return Math.min(...list)
+// }
+
+// const max = function(list){
+//   return Math.max(...list)
+// }
