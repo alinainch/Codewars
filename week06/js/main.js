@@ -353,3 +353,7 @@ const grow = x => x.reduce((a, n) => a * n, 1)
 //#32 Function 2 - squaring an argument
 const square = n1 => n1 * n1
 //could also do const square = n => n ** 2
+
+//#33 Find Maximum and Minimum Values of a List
+const min = list => Math.min(...list)
+const max = list => Math.max(...list)
