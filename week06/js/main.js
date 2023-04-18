@@ -366,3 +366,8 @@ const max = list => Math.max(...list)
 // const max = function(list){
 //   return Math.max(...list)
 // }
+
+//#34 Remove First and Last CHaracter (8kyu)
+function removeChar(str){
+  return str.slice(1, -1)
+}
