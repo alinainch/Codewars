@@ -389,4 +389,9 @@ const feast = (beast, dish) => (beast[0] === dish[0] && beast[beast.length-1] ==
 const repeatStr = (n,s) => s.repeat(n)
 
 
- 
+ //#37 Goals messi function
+ function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  let goalTotal = laLigaGoals + copaDelReyGoals + championsLeagueGoals 
+  return goalTotal 
+}
+goals (2,3,4)
