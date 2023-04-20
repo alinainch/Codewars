@@ -397,7 +397,7 @@ const repeatStr = (n,s) => s.repeat(n)
 goals (2,3,4)
 
 // add the value "codewars" to the websites array 1,000 times
-var websites = [];
+const websites = [];
 while (websites.length < 1000){
-  websites.push("codewars")
+  websites.push('codewars')
 } 
