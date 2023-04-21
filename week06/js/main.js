@@ -401,3 +401,9 @@ const websites = [];
 while (websites.length < 1000){
   websites.push('codewars')
 } 
+
+//#38 Opposite number
+function opposite(number) {
+  let opp = number * -1
+  return opp
+  }
