@@ -414,3 +414,8 @@ function findShort(s){
   return shortie[0].length 
  }
 
+//Greet Me 7kyu
+let greet = function(name) {
+  let fixName = name[0].toUpperCase() + name.substring(1).toLowerCase()
+  return `Hello ${fixName}!`
+}
