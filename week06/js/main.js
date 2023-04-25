@@ -110,14 +110,6 @@ function strCount(str, letter){
   return str.split(letter).length-1
 }
 
-//#11 Add Length (8kyu)
-function addLength(str) {
-  let array = str.split(' ')
-  for (let i = 0; i < array.length; i++) {
-    array[i] = `${array[i]} ${array[i].length}`
-  }
-  return array
-  }
 
 //easier solution with map vvv from solutions 
 let addLength = str => str.split(' ').map(word => `${word} ${word.length}`)
@@ -311,7 +303,6 @@ function areYouPlayingBanjo(name) {
     return name + ' does not play banjo'
   }
 }
-
 //could also use name[0] instead of the charAt 
 
 //#28 List filtering 7kyu 
