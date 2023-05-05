@@ -7,3 +7,11 @@ function makeNegative(num) {
     return num * -1
   }
 }
+
+//other solutions
+makeNegative = n => -Math.abs(n)
+
+/////////////////////////////////
+function makeNegative(num) {
+  return num < 0 ? num : -num;
+}
