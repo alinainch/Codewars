@@ -4,4 +4,4 @@ function myFirstKata(a, b) {
   } else {
       return (a % b) + (b % a);
   }
-}
+};
