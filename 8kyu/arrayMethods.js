@@ -16,5 +16,6 @@ const retail = companies.filter(e => company.category === 'retail')
 const eightiesCompanies = companies.filter(e => company.start >= 1980 && company.start < 1990)
 
 //map (creates new array)
+const companyNames = companies.filter(e => company.name)
 
-
+const agesSwuare = ages.map(age => Math.sqrt(age))
