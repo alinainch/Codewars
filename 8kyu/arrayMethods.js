@@ -28,3 +28,8 @@ const agesSquare = ages
 const sortAges2 = ages.sort()
 
 const sortAges2 = ages.sort((a, b) => a - b)
+
+//reduce 
+const ageSum = ages.reduce((total, age) => total + age, 0)
+
+const totalYears = companies.reduce((total, company ) => total + (company.end - company.start), 0)
