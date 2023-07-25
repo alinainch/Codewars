@@ -18,4 +18,13 @@ const eightiesCompanies = companies.filter(e => company.start >= 1980 && company
 //map (creates new array)
 const companyNames = companies.filter(e => company.name)
 
-const agesSwuare = ages.map(age => Math.sqrt(age))
+//can do multiple operations with map 
+const agesSquare = ages
+.map(age => Math.sqrt(age))
+.map(age => age * 2)
+
+//sort
+//will only sort the first lexical order not the values themselves
+const sortAges2 = ages.sort()
+
+const sortAges2 = ages.sort((a, b) => a - b)
