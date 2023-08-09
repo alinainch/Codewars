@@ -14,4 +14,4 @@ function findOdd(A) {
 }
 
 //given array of integers
-//return the number in array that appears odd number of times
+//return the number (count) in array that appears odd number of times
